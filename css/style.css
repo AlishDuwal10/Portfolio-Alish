@@ -1,1 +1,102 @@
-style.css
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background-color: #111;
+}
+
+.logo {
+    color: #ff4d4d;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #ff4d4d;
+}
+
+/* Hero Section */
+.hero {
+    height: 70vh;
+    background: linear-gradient(#222, #000);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.btn {
+    padding: 12px 25px;
+    border: none;
+    cursor: pointer;
+    background: #ff4d4d;
+    color: #fff;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #ff6666;
+}
+
+.hire {
+    background: transparent;
+    border: 2px solid #ff4d4d;
+}
+
+.hire:hover {
+    background: #ff4d4d;
+}
+
+/* About Section */
+.about {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #1a1a1a;
+    color: #ddd;
+}
+
+.about h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.about span {
+    color: #ff4d4d;
+}
+
+.about p {
+    width: 60%;
+    margin: auto;
+    font-size: 14px;
+    line-height: 1.6;
+}
