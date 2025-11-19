@@ -6,7 +6,7 @@
     font-family: Arial, sans-serif;
 }
 
-/* Header */
+
 header {
     display: flex;
     justify-content: space-between;
@@ -77,7 +77,6 @@ nav a:hover {
     background: #ff4d4d;
 }
 
-/* About Section */
 .about {
     padding: 60px 20px;
     text-align: center;
