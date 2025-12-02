@@ -2,58 +2,87 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio-Alish</title>
   <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
 
-    
-    <video autoplay loop muted id="video-background">
-        <source src="video/background.mp4" type="video/mp4">
-    </video>
+  <video autoplay loop muted id="video-background">
+      <source src="video/background.mp4" type="video/mp4">
+  </video>
+
+  
+  <header>
+      <div class="logo">ALISH</div>
+      <nav class="nav-links">
+          <a href="#">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+      </nav>
 
     
-    <header>
-        <nav>
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Service</a>
-            <a href="#">Resume</a>
-            <a href="#">Portfolio</a>
-            <a href="#">Blog</a>
-            <a href="#">Contact</a>
-        </nav>
-    </header>
+      <div class="hamburger" id="hamburger">
+          &#9776;
+      </div>
+  </header>
 
-    <section class="hero">
-        <h1>I Am Web Developer</h1>
-        <div class="buttons">
-            <button class="btn">View Work</button>
-            <button class="btn hire">Hire Me</button>
-        </div>
-    </section>
+ 
+  <section class="hero">
+      <h1>I Am <span>Web Developer</span></h1>
+      <p class="subtitle">I create modern websites & web apps.</p>
+      <div class="buttons">
+          <button class="btn">View Work</button>
+          <button class="btn hire">Hire Me</button>
+      </div>
+  </section>
 
-    <section class="about">
-        <h2>About <span>MySelf</span></h2>
-        <p>I am Alish Duwal a new web developer in the town.</p>
-    </section>
+ 
+  <section class="about" id="about">
+      <h2>About <span>Myself</span></h2>
+      <p>I am Alish Duwal, a passionate web developer excited to learn and grow in the world of web development.</p>
+  </section>
 
-    <section class="contact">
-        <form>
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="fname" required>
+ 
+  <section class="skills" id="skills">
+      <h2>My <span>Skills</span></h2>
+      <div class="skills-container">
+          <div class="skill-box">HTML</div>
+          <div class="skill-box">CSS</div>
+          <div class="skill-box">JavaScript</div>
+          <div class="skill-box">Java / Python</div>
+      </div>
+  </section>
 
-            <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lname" required>
+  
+  <section class="projects" id="projects">
+      <h2>My <span>Projects</span></h2>
+      <div class="projects-grid">
+          <div class="project-card">Portfolio Website</div>
+          <div class="project-card">Banking System</div>
+          <div class="project-card">Unity Garden</div>
+          <div class="project-card">Calculator App</div>
+      </div>
+  </section>
 
-            <button type="submit">Submit</button>
-        </form>
-    </section>
+  
+  <section class="contact" id="contact">
+      <h2>Contact <span>Me</span></h2>
+      <form>
+          <input type="text" placeholder="Your Name" required>
+          <input type="email" placeholder="Your Email" required>
+          <textarea placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn">Send</button>
+      </form>
+  </section>
 
-    <footer>
-        <p>All Right Reserved &copy; Done </p>
-    </footer>
+  <footer>
+      <p>All Right Reserved &copy; 2025 | Alish</p>
+  </footer>
 
+  <script src="./script/script.js"></script>
 </body>
 </html>
